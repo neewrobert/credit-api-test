@@ -4,8 +4,8 @@ import com.eliasnogueira.credit.model.MessageV1;
 import com.workshop.api.client.RestrictionApiClient;
 import org.apache.http.HttpStatus;
 
-public class RestrictionApiService {
-    private RestrictionApiClient restrictionsApiClient = new RestrictionApiClient();
+public class    RestrictionApiService {
+    private final RestrictionApiClient restrictionsApiClient = new RestrictionApiClient();
 
     /**
      * Query CPF without a restriction
