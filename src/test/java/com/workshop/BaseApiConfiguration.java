@@ -10,7 +10,7 @@ import static io.restassured.path.json.config.JsonPathConfig.NumberReturnType.BI
 public abstract class BaseApiConfiguration {
 
     @BeforeAll
-    static void mainConfigurantion() {
+    static void mainConfiguration() {
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8081;
         RestAssured.basePath = "/api/v1";
